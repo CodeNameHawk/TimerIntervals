@@ -1,0 +1,61 @@
+/* styles.css */
+.container {
+    display: flex;
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.form-group label {
+    width: 110px;
+    text-align: right;
+    margin-right: 10px;
+}
+.form-group input {
+    flex: 1;
+    max-width: 35px; /* Limit input field width */
+}
+.interval-list {
+    margin-right: 50px;
+    margin-left: 25px;
+    text-align: center;
+    width: 155px;
+}
+button:disabled {
+    opacity: 0.5;
+}
+.form-panel {
+    flex: 1;
+}
+.submit-button {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 25px;
+    margin-left: 40px; /* Align with input fields */
+}
+
+#intervals-list {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    padding: 0;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#intervals-list li.selected {
+    background-color: #54679c;
+}
+
+/* Стили для calculated-intervals-list */
+#calculated-intervals-list {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    padding: 0;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#calculated-intervals-list li.selected {
+    background-color: #54679c;
+}
