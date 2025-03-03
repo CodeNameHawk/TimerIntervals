@@ -59,5 +59,5 @@ To use this application, you need to either:
 Input: 09:00-10:30, 10:00-11:00
 Result: 09:00-11:00 (merged)
 ```
-````
+
 
