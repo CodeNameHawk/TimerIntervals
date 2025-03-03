@@ -277,7 +277,7 @@
 <body>
     <div class="container">
         <div class="interval-list">
-            <h3>Saved Intervals:</h3>
+            <h3>Saved<br>Intervals:</h3>
             <ul id="intervals-list">
                 <?php
                 $file = "TimerIntervals.json";
@@ -311,7 +311,7 @@
         </div>
 
         <div class="interval-list">
-            <h3>Calculated Intervals:</h3>
+            <h3>Calculated<br>Intervals:</h3>
             <ul id="calculated-intervals-list">
                 <!-- Здесь будет выводиться список, полученный из interval-list -->
             </ul>

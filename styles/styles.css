@@ -59,3 +59,8 @@ button:disabled {
 #calculated-intervals-list li.selected {
     background-color: #54679c;
 }
+
+.interval-list h3 {
+    white-space: pre-line;
+    line-height: 1.2;
+}
