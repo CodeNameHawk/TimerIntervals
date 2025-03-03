@@ -280,7 +280,7 @@
         <div class="description">
             <p>This program helps you manage and merge overlapping time intervals.</p>
             <p>How to use:</p>
-                <li>Enter start and end times in HH:MM format</li>
+                <li>Enter start and end times in HH:MM in 24H format</li>
                 <li>Add intervals using the form</li>
                 <li>View saved intervals in the left column</li>
                 <li>View merged intervals in the middle column</li>

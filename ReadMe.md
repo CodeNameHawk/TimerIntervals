@@ -4,7 +4,7 @@ A program for managing and merging overlapping time intervals.
 
 ## Features
 
-* Input time intervals in HH:MM format
+* Input time intervals in HH:MM in 24H format
 * Add multiple intervals via form interface
 * View all saved intervals
 * View automatically merged intervals
