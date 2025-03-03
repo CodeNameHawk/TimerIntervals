@@ -280,14 +280,12 @@
         <div class="description">
             <p>This program helps you manage and merge overlapping time intervals.</p>
             <p>How to use:</p>
-            <ol>
                 <li>Enter start and end times in HH:MM format</li>
                 <li>Add intervals using the form</li>
                 <li>View saved intervals in the left column</li>
                 <li>View merged intervals in the middle column</li>
                 <li>Select and delete intervals by clicking on them</li>
                 <li>Save merged intervals to a file using 'Save to file' button</li>
-            </ol>
         </div>
     </div>
     <div class="container">
