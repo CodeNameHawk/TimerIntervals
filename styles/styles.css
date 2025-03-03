@@ -1,6 +1,8 @@
 /* styles.css */
 .container {
     display: flex;
+    min-width: 800px;     /* Минимальная ширина контейнера */
+    flex-wrap: nowrap;    /* Запрещаем перенос элементов */
 }
 .form-group {
     display: flex;
@@ -21,12 +23,14 @@
     margin-left: 25px;
     text-align: center;
     width: 155px;
+    flex-shrink: 0;       /* Запрещаем сжатие блоков */
 }
 button:disabled {
     opacity: 0.5;
 }
 .form-panel {
     flex: 1;
+    min-width: 300px;     /* Минимальная ширина формы */
 }
 .submit-button {
     display: flex;
