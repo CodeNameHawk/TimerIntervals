@@ -32,7 +32,7 @@ To use this application, you need to either:
 1. Для локального запуска:
    * Установить PHP
    * Перейти в папку TimerIntervals
-   * Запустить Terminal
+   * Запустить Terminal, убедитесь, что вы находитесь в папке TimerIntervals.
    * Запустить сервер командой: `php -S localhost:9000`
    * Открыть в браузере http://localhost:9000/index.php
 
