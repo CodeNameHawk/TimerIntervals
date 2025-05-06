@@ -336,12 +336,12 @@
             <form method="post" action="">
                 <div class="form-group">
                     <label for="start_time">Start Time:</label>
-                    <input type="text" id="start_time" name="start_time"
+                    <input type="text" inputmode="numeric" id="start_time" name="start_time"
                         oninput="addColon(this, 'end_time'); validateInput(event);" onblur="formatTime(this);">
                 </div>
                 <div class="form-group">
                     <label for="end_time">End Time:</label>
-                    <input type="text" id="end_time" name="end_time"
+                    <input type="text" inputmode="numeric" id="end_time" name="end_time"
                         oninput="addColon(this, 'submit_button'); validateInput(event);" onblur="formatTime(this);">
                 </div>
                 <div class="submit-button">
