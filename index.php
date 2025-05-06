@@ -4,6 +4,29 @@
 <head>
     <title>Timers Intervals</title>
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <style>
+        .info-panel {
+            text-align: center;
+        }
+        .info-panel .description {
+            margin: 5px 0;
+            display: inline-block;
+            text-align: left;
+        }
+        .interval-list ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-left: 0;
+            margin: 0 auto;
+        }
+        .interval-list ul li {
+            list-style: none;
+            text-align: center;
+            min-width: 120px;
+            margin: 2px 0;
+        }
+    </style>
     <script>
         function addColon(input, nextInputId) {
             if (input.value.length == 2) {
@@ -270,15 +293,34 @@
 
             calculateNewList();
             updateSaveButton();
+
+            // Toggle info-panel description
+            const toggleBtn = document.getElementById('toggle-info');
+            const infoDesc = document.getElementById('info-description');
+            // Start collapsed
+            infoDesc.style.display = 'none';
+            toggleBtn.textContent = 'Show Info';
+            toggleBtn.addEventListener('click', function() {
+                if (infoDesc.style.display === 'none') {
+                    infoDesc.style.display = '';
+                    toggleBtn.textContent = 'Hide Info';
+                } else {
+                    infoDesc.style.display = 'none';
+                    toggleBtn.textContent = 'Show Info';
+                }
+            });
         });
     </script>
 </head>
 
 <body>
-    <div class="info-panel">
-        <h1>Timer Intervals Manager</h1>
-        <div class="description">
-            <p>This program helps you manage and merge overlapping time intervals.</p>
+    <div class="info-panel" style="text-align: center;">
+        <h1>Timer Intervals Manager
+            <button id="toggle-info" style="margin-left:20px;font-size:0.7em;">Show Info</button>
+        </h1>
+        <div class="description" id="info-description">
+        <a href="https://github.com/CodeNameHawk/TimerIntervals" target="_blank">https://github.com/CodeNameHawk/TimerIntervals</a>
+        <p><h4>This program helps you manage and merge overlapping time intervals.</h4></p>
             <p>How to use:</p>
                 <li>Enter start and end times in HH:MM in 24H format</li>
                 <li>Add intervals using the form</li>
